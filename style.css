@@ -1,0 +1,8 @@
+@font-face {
+    font-family: MicrogrammaD;
+    src: url('MicrogramD.ttf') format("truetype");
+}
+h1{color: #010066;
+    font-family: MicrogrammaD;
+    font-size: 48;
+}
