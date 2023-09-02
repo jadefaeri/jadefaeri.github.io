@@ -5,8 +5,12 @@
 h1 {color: #e20001;
     font-family: MicrogrammaD;
     font-size: 60pt;
+    margin-bottom: 0;
+    line-height: 0.2;
 }
 h2 {color: #010066;
     font-family: MicrogrammaD;
     font-size: 48pt;
+    margin-top: 0;
+    line-height: 0.2;
 }
