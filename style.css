@@ -17,6 +17,14 @@ h2 {color: #010066;
     border-top: 0;
     padding-top: 0;
 }
+h3  {font-family: MicrogrammaD;
+    color: #e20001;
+    font-size: 36pt;
+}
+main  {color:black;
+    font-family: sans-serif;
+    font-size: medium;
+}
 p  {color:black;
     font-family: sans-serif;
     font-size: medium;
@@ -24,6 +32,7 @@ p  {color:black;
 ul {color: #010066;
     list-style-type: none;
     text-align: center;
+    font-family: MicrogrammaD;
 }
 ul li{display: inline;
     padding: 10px;
