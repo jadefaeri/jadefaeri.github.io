@@ -8,14 +8,16 @@ h1 {color: #e20001;
     margin-bottom: 0;
     border-bottom: 0;
     padding-bottom: 0;
+    text-align: center;
 }
 h2 {color: #010066;
     font-family: MicrogrammaD;
     font-size: 48pt;
-    left: 10px;
+    left: 20px;
     margin-top: 0;
     border-top: 0;
     padding-top: 0;
+    text-align: center;
 }
 h3  {font-family: MicrogrammaD;
     color: #e20001;
