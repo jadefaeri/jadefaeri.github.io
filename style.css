@@ -45,4 +45,17 @@ ul li{display: inline;
 }
 ul li a:hover {
     color: #ec6261;
+    text-decoration: none;
+}
+ul li a:visited {
+    color: #ec6261;
+    text-decoration: none;
+}
+ul li a:active {
+    color: #e20001;
+    text-decoration: none;
+}
+ul li a:link {
+    color: #e20001;
+    text-decoration: none;
 }
