@@ -12,8 +12,6 @@ nav ul li{display: inline;
     text-decoration: none;
     flex: 2 2 10em;
     display: block;
-    position: relative;/**/
-    width: 150px;/**/
 }
 nav ul li a:hover {
     color: #ec6261;
@@ -31,19 +29,41 @@ nav ul li a:link {
     color: whitesmoke;
     text-decoration: none;
 }
-/*position sub-menu or drop-down*/
-nav ul li ul {
-    position: absolute;
-    top: 100%;
-    display: none;
+/* Style for the dropdown container */
+nav ul li.dropdown {
+    position: relative;
 }
-nav ul li ul li {
-    float:none;
+/* Style for the dropdown links */
+nav ul li.dropdown ul {
+    display: none; /* Initially hide the dropdown */
+    position: absolute; /* Absolute positioning to show dropdown below the parent link */
+    top: 100%; /* Position it right below the parent link */
+    left: 0; /* Align it to the left of the parent link */
+    background-color: #010066; /* Same background color as the main nav */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    width: 150px; /* Width of the dropdown */
+    z-index: 1; /* Ensure it appears above other content */
 }
-/*special hover to display the drop-down*/
-nav ul li:hover ul{
+
+/* Style for the dropdown links when hovered */
+nav ul li.dropdown ul li a:hover {
+    color: #ec6261;
+}
+
+/* Display the dropdown when hovering over the parent link */
+nav ul li.dropdown:hover ul {
     display: block;
 }
+
+/* Reset the display property for dropdown links */
+nav ul li.dropdown ul li {
+    display: block;
+    width: 100%; /* Full width of the dropdown */
+    padding: 10px; /* Padding for each dropdown link */
+}
+
+
 @media screen and (min-width: 768px) {
     nav ul{
         text-align: center;
