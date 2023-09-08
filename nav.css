@@ -1,15 +1,54 @@
-.nav {color: #e20001;
-    background-color: black;
+nav ul {color: #e20001;
+    background-color: #010066;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     font-family: MicrogrammaD;
-    padding: 20px 0 20px 0;
+    font-size: large;
+    padding: 10px 0 10px 0;
 }
-.nav li{display: inline;
+nav ul li{display: inline;
     padding: 10px;
     margin: 0px;
     text-decoration: none;
+    flex: 2 2 10em;
+    display: block;
+    position: relative;/**/
+    width: 150px;/**/
 }
-.nav li a:hover {
+nav ul li a:hover {
     color: #ec6261;
+    text-decoration: none;
+}
+nav ul li a:visited {
+    color: #e20001;
+    text-decoration: none;
+}
+nav ul li a:active {
+    color: #e20001;
+    text-decoration: none;
+}
+nav ul li a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+/*position sub-menu or drop-down*/
+nav ul li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul li ul li {
+    float:none;
+}
+/*special hover to display the drop-down*/
+nav ul li:hover ul{
+    display: block;
+}
+@media screen and (min-width: 768px) {
+    nav ul{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav li{flex: 1 1 0;}
 }
