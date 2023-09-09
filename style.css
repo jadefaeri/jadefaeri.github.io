@@ -43,8 +43,11 @@ ul {
     h1{
         font-size: 38pt;
     }
+    h2{
+        font-size: 36pt;
+    }
     img {
+        object-fit: scale-down;
         max-width: 100%;
-        height: 50%;
     }
 }
