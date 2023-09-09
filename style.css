@@ -39,6 +39,14 @@ ul {
     color: black;
     padding: 10px 0 10px 0;
 }
+footer {
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    background-image: url(UnitPic21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media screen and (max-width: 768px) {
     h1{
         font-size: 38pt;
