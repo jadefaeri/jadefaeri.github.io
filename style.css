@@ -41,10 +41,10 @@ ul {
 }
 @media screen and (max-width: 768px) {
     h1{
-        font-size: 36pt;
+        font-size: 38pt;
     }
     img {
         max-width: 100%;
-        height: auto;
+        height: 50%;
     }
 }
