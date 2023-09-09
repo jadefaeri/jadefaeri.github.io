@@ -10,7 +10,8 @@ nav ul li{display: inline;
     padding: 10px;
     margin: 0px;
     text-decoration: none;
-    flex: 2 2 10em;
+    flex: auto;
+    justify-content: space-between;
     display: block;
 }
 nav ul li a:hover {
@@ -72,3 +73,4 @@ nav ul li.dropdown ul li {
     }
     nav li{flex: 1 1 0;}
 }
+
