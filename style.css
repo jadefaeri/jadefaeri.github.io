@@ -47,6 +47,20 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.pic{
+    width: 15px;
+    height: 15px;
+}
+.picbig {
+    position:absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+.pic:hover + .picbig {
+    width: 25px;
+    height: 25px;
+}
 @media screen and (max-width: 768px) {
     h1{
         font-size: 38pt;
@@ -61,5 +75,19 @@ footer {
     iframe {
         object-fit: scale-down;
         max-width: 100%;
+    }
+    .pic{
+        width: 15px;
+        height: 15px;
+    }
+    .picbig {
+        position:absolute;
+        width: 0px;
+        -webkit-transition: width 0.3s linear 0s;
+        z-index: 10;
+    }
+    .pic:hover + .picbig {
+        width: 25px;
+        height: 25px;
     }
 }
