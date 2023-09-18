@@ -75,6 +75,11 @@ tr:nth-child(odd) {
 main {
     overflow: scroll;
 }
+textarea {
+    height: 5em;
+    width: 25em;
+    font-family: sans-serif;
+}
 .pic{
     width: 15px;
     height: 15px;
