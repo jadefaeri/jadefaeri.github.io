@@ -47,6 +47,34 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+table {
+    width: 400px;
+}
+th, caption {
+    text-align: left;
+}
+caption {
+    color: #e20001;
+    font-family: MicrogrammaD;
+    padding-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #010066;
+    color: #fff;
+}
+main {
+    overflow: scroll;
+}
 .pic{
     width: 15px;
     height: 15px;
@@ -89,5 +117,13 @@ footer {
     .pic:hover + .picbig {
         width: 25px;
         height: 25px;
+    }
+    tr {
+        font-size: 12px;
+    }
+    table {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
