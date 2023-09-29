@@ -24,6 +24,10 @@
     <main>
         <p>Please fill out this form to send us a message.</p>
         <form action="https://formsubmit.co/chris@watchdogministorage.com" method="post">
+            <!--Honeypot-->
+            <input type="text" name="_honey" style="display: none;">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.watchdogministorage.com/sent.html">
             <p>Name: <input type="text" name="name" id="name" required></p>
             <p>Email: <input type="email" name="email" id="email" required></p>
             Message:<br>
