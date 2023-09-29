@@ -17,38 +17,19 @@
             <li><a href="index.html">HOME</a> </li>
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="whichunit.html">WHICH UNIT?</a></li>
-            <li><a href="requestquote.html">QUOTE</a></li>
+            <li><a href="paybill.html">PAY MY BILL</a></li>
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
     <main>
-        <table>
-            <caption>CONTACT INFORMATION</caption>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Email</th>
-            </tr>
-            <tr>
-                <td>Chris</td>
-                <td>Owner</td>
-                <td>chris@watchdog.com</td>
-            </tr>
-            <tr>
-                <td>Hillary</td>
-                <td>Web Developer</td>
-                <td>hillary@watchdog.com</td>
-            </tr>
-        </table>
-        <form action="mailto:chris@watchdogministorage.com?Subject=
-        Contact%20Watchdog" method="post" enctype="text/plain">
-            <p>First Name: <input type="text" id="fname" required></p>
-            <p>Last Name: <input type="text" id="lname" required></p>
-            <p>Your Email: <input type="email" id="email" required></p>
+        <p>Please fill out this form to send us a message.</p>
+        <form action="https://formsubmit.co/chris@watchdogministorage.com" method="post">
+            <p>Name: <input type="text" name="name" id="name" required></p>
+            <p>Email: <input type="email" name="email" id="email" required></p>
             Message:<br>
-            <textarea id="msg" name="Message" required></textarea>
+            <textarea name="message" id="message" required></textarea>
             <br>
-            <input type="submit">
+            <button>Send</button>
         </form>
         <br></br>
     </main>
